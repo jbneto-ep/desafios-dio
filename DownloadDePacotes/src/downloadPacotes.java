@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class downloadPacotes {
+public class DownloadPacotes {
     public static void main(String[] args) throws Exception {
         Scanner leitor = new Scanner(System.in);
         int tamanho = leitor.nextInt();

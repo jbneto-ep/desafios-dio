@@ -1,6 +1,6 @@
 import java.util.Scanner; 
     
-public class mesadaSobrinho {
+public class MesadaSobrinho {
     public static void main(String[] args) {
         
             Scanner leitor = new Scanner(System.in);
@@ -9,5 +9,6 @@ public class mesadaSobrinho {
 
                        
             System.out.println(entrada * mesada);
+            
 
     }}

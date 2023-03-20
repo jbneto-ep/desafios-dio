@@ -7,8 +7,7 @@ public class pontosNaCarteira2 {
         System.out.println("Qual a velocidade do carro?");
         int multas = leitor.nextInt();
         System.out.println("Quantas multas ele tem?");
-        // TODO: Crie a condição necessária para verificar se os carros estão acima da
-        // velocidade
+        
         if (velocidade > 80) {
             multas++;
         }

@@ -15,7 +15,7 @@ public class pontosNaCarteira {
                 System.out.println( multasContadas + " multas. Nao levou pontos na carteira");
              }else if (multas==2 & velocidade>80) {
                 System.out.println( multasContadas + " multas. Nao levou pontos na carteira" );
-             } else if(velocidade<=80){
+             } else if(velocidade<=80 || velocidade>0){
                System.out.println( multas + " multas. Nao levou pontos na carteira" );
              }
         }
